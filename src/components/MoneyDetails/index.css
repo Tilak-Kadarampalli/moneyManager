@@ -1,1 +1,45 @@
 /* Write your CSS here */
+.money-details-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.money-details-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 12px;
+  padding: 20px;
+  flex-grow: 1;
+  max-width: 300px;
+}
+.balance {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+}
+.income {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+.expense {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}
+.details-icon {
+  width: 56px;
+  height: 56px;
+  margin-right: 20px;
+  margin-bottom: 8px;
+}
+.details-text-head {
+  color: #475569;
+  font-size: 12px;
+  margin-bottom: -16px;
+}
+.details-text-amount {
+  color: #475569;
+  font-size: 24px;
+}
