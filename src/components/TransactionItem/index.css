@@ -1,1 +1,20 @@
 /* Write your CSS here */
+.history-table-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #475569;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid #cbd5e1;
+  border-top: none;
+  padding: 8px 16px 8px 16px;
+}
+.delete-icon {
+  width: 16px;
+  height: 16px;
+}
+.delete-btn {
+  background-color: transparent;
+  border: none;
+}
